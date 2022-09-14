@@ -1,0 +1,82 @@
+<!-- JSON COMMENTS -->
+<!--
+            "name": "Kerbin",
+			"equatorial radius": KM,
+			"kerbin size": 1,
+			"atmosphere": "yes",
+			"atmosphere limit": KM,
+			"low space": KM,
+			"high space": KM,
+			"soi": KM,
+			"shadow duration at ground": Minutes,
+			"shadow duration at ground hrs": Hours.Minutes,
+			"shadow duration at 100KM": Minutes,
+			"shadow duration at 100KM hrs": Hours.Minutes,
+			"synchronous orbit": KM,
+			"gravity": 1,
+			"escape velocity": m/s,
+			"surface rca": "no"
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body onload="fetchData()">
+    <div class="container">
+        <header>
+            <h1>Kerbal Space Program</h1>
+        </header>
+        <main>
+            <section id="planet-sizes">
+
+                <div>
+                    <div class="planet" id="kerbin"></div>
+                    <div class="planet-name">kerbin</div>
+                </div>
+                <div>
+                    <div class="planet" id="mun"></div>
+                    <div class="planet-name">mun</div>
+                </div>
+                <div>
+                    <div class="planet" id="minmus"></div>
+                    <div class="planet-name">minmus</div>
+                </div>
+                <div>
+                    <div class="planet" id="duna"></div>
+                    <div class="planet-name">duna</div>
+                </div>
+                <div>
+                    <div class="planet" id="eve"></div>
+                    <div class="planet-name">eve</div>
+                </div>
+
+            </section>
+            <section id="sub-navigation">
+                <h3>Quick Links</h3>
+                <div id="quick-links">
+
+                </div>
+            </section>
+            <section id="planet-info">
+
+            </section>
+
+        </main>
+        <footer>
+
+            <p> Last updated September 2022</p>
+            <p>API</p>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        </footer>
+    </div>
+    <script src="js/script2.js"></script>
+</body>
+
+</html>
