@@ -9,9 +9,9 @@
 			"high space": KM,
 			"soi": KM,
 			"shadow duration at ground": Minutes,
-			"shadow duration at ground hrs": Hours.Minutes,
+			"shadow duration at ground hrs": "Hours:Minutes",
 			"shadow duration at 100KM": Minutes,
-			"shadow duration at 100KM hrs": Hours.Minutes,
+			"shadow duration at 100KM hrs": "Hours:Minutes",
 			"synchronous orbit": KM,
 			"gravity": 1,
 			"escape velocity": m/s,
@@ -22,8 +22,6 @@
 
 <head>
     <!-- Google Analytics -->
-
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-TTBTFYGBE2"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -34,9 +32,19 @@
     </script>
     <!-- Google Analytics END ---------------- -->
 
+    <!-- General meta data -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KSP Data sheet</title>
+    <meta name="description"
+        content="A data sheet of planets and bodies in Kerbal Space Program. Use to work out flight plans and aid science capture. Includes points of low space and high space">
+    <meta name="robot" content="index,follow">
+    <meta name="keywords"
+        content="kerbal space program,kerbal,space,program,ksp,mun,minmus,kerbin,kerbal,duna,eve,moho,gilly,ike">
+
+    <!-- General END ---------------------------- -->
+
     <!-- OPEN GL META DATA FOR SOCIAL MEDIA -->
     <meta property="og:title" content="KSP data sheet" />
     <meta property="og:description"
@@ -44,8 +52,9 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://ksp-planet-data.netlify.app/" />
     <meta property="og:image" content="https://ksp-planet-data.netlify.app/images/screenshot-meta.png" />
+    <!-- OPEN GL  END ------------------------ -->
     <link rel="stylesheet" href="css/main.css">
-    <title>KSP Data sheet</title>
+
 </head>
 
 <body onload="fetchData()">
@@ -103,11 +112,11 @@
         <footer>
 
             <p> Last updated September 2022</p>
-            <p>API</p>
+            <p> <a href="https://ksp-planet-data.netlify.app/json/info.json">API - Json file</a></p>
             <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         </footer>
     </div>
-    <script src="js/script2.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
