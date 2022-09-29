@@ -50,7 +50,7 @@ section#sub-navigation {
 
 section#planet-sizes {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: center;
 	margin: 3em 0;
 	background: rgb(49, 48, 48);
 	padding: 3em;
@@ -191,4 +191,11 @@ footer {
 	margin: 0 auto;
 	display: grid;
 	place-items: center;
+}
+
+@media only screen and (max-width: 650px) {
+	section#planet-sizes {
+		display: flex;
+		justify-content: flex-start;
+	}
 }
