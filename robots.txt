@@ -1,0 +1,7 @@
+# https://ksp-planet-data.netlify.app/robots.txt
+# Tell Google not to crawl any URLs in the json or images or fonts folder,
+# because they won't be useful in Google Search results.
+User-agent: googlebot
+Disallow: /json/
+Disallow: /images/
+Disallow: /fonts/
