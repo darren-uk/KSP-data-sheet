@@ -18,7 +18,7 @@ async function fetchData() {
             </div>
             <div>
                 <p class="item">Equatorial radius</p>
-                <p class="value">${planet.equatorial_radius} KM</p>
+                <p class="value">${planet.equatorial_radius} <span class="measurment">KM</span></p>
             </div>
             <div>
                 <p class="item">Atmosphere</p>
@@ -26,39 +26,39 @@ async function fetchData() {
             </div>
             <div>
                 <p class="item">Atmosphere limit</p>
-                <p class="value">${planet.atmosphere_limit} KM</p>
+                <p class="value">${planet.atmosphere_limit} <span class="measurment">KM</span></p>
             </div>
             <div>
                 <p class="item">Low Space</p>
-                <p class="value">${planet.low_space} KM</p>
+                <p class="value">${planet.low_space} <span class="measurment">KM</span></p>
             </div>
             <div>
                 <p class="item">High Space</p>
-                <p class="value">${planet.high_space} KM ></p>
+                <p class="value">${planet.high_space} <span class="measurment">KM ></span></p>
             </div>
             <div>
                 <p class="item">Sphere of influence<span class="info">SOI</span></p>
-                <p class="value">${planet.sphere_of_influence} KM</p>
+                <p class="value">${planet.sphere_of_influence} <span class="measurment">KM</span></p>
             </div>
             <div>
                 <p class="item">Shadow duration at ground<span class="info">on equatorial line</span></p>
-                <p class="value">${planet.shadow_duration_at_ground_hrs}</p>
+                <p class="value">${planet.shadow_duration_at_ground_hrs} <span class="measurment">HH.MM</span></p>
             </div>
             <div>
                 <p class="item">shadow duration at 100 km<span class="info">on equatorial line</span></p>
-                <p class="value">${planet.shadow_duration_at_100km_hrs}</p>
+                <p class="value">${planet.shadow_duration_at_100km_hrs} <span class="measurment">HH.MM</span></p>
             </div>
             <div>
                 <p class="item">Synchronous orbit</p>
-                <p class="value">${planet.synchronous_orbit} KM</p>
+                <p class="value">${planet.synchronous_orbit} <span class="measurment">KM</span></p>
             </div>
             <div>
                 <p class="item">gravity</p>
-                <p class="value">${planet.gravity} G</p>
+                <p class="value">${planet.gravity} <span class="measurment">G</span></p>
             </div>
             <div>
                 <p class="item">escape velocity</p>
-                <p class="value">${planet.escape_velocity} m/s</p>
+                <p class="value">${planet.escape_velocity} <span class="measurment">m/s</span></p>
             </div>
             <div>
                 <p class="item">surface rca</p>

@@ -144,6 +144,10 @@ article.card {
 	max-width: 32ch;
 }
 
+.measurment {
+	font-size: 0.8em;
+}
+
 .bolder {
 	font-size: 1.5em;
 	font-weight: 500;
