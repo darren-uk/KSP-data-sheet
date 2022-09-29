@@ -2,10 +2,16 @@ async function fetchData() {
 	// Get json file
 	let response = await fetch("./json/info2.json");
 	let data = await response.json();
-	console.log(data);
+	// console.log(data);
 
 	//create template
 	function planetTemplate(planet) {
+		console.log(
+			"grnd" +
+				Math.round((planet.shadow_duration_at_ground_hrs * 100) / 100).toFixed(
+					2
+				)
+		);
 		return `
         <article class="card" id="${planet.name}-link">
             <div>
@@ -42,11 +48,11 @@ async function fetchData() {
             </div>
             <div>
                 <p class="item">Shadow duration at ground<span class="info">on equatorial line</span></p>
-                <p class="value">${planet.shadow_duration_at_ground_hrs} <span class="measurment">HH.MM</span></p>
+                <p class="value">${planet.shadow_duration_at_ground_hrs} <span class="measurment">HH:MM</span></p>
             </div>
             <div>
                 <p class="item">shadow duration at 100 km<span class="info">on equatorial line</span></p>
-                <p class="value">${planet.shadow_duration_at_100km_hrs} <span class="measurment">HH.MM</span></p>
+                <p class="value">${planet.shadow_duration_at_100km_hrs} <span class="measurment">HH:MM</span></p>
             </div>
             <div>
                 <p class="item">Synchronous orbit</p>
