@@ -48,6 +48,10 @@ section#sub-navigation {
 	text-decoration: none;
 }
 
+.planet-link:has(.planet).planet-link:after {
+	content: "";
+}
+
 .planet-link:after {
 	content: " - ";
 }
