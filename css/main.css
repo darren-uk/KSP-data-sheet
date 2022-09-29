@@ -16,6 +16,10 @@ body {
 	color: #4d4848;
 }
 
+main {
+	padding: 0 2em;
+}
+
 header h1 {
 	text-align: center;
 	font-family: corbel, sans-serif;
@@ -46,10 +50,11 @@ section#sub-navigation {
 
 section#planet-sizes {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	margin: 3em 0;
 	background: rgb(49, 48, 48);
-	padding: 3em 0;
+	padding: 3em;
+	overflow-x: auto;
 }
 
 .planet {
@@ -125,6 +130,7 @@ article.card {
 .item {
 	margin-right: 2em;
 	font-size: 0.8em;
+	max-width: 50%;
 }
 
 .value {
