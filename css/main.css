@@ -114,6 +114,18 @@ section#planet-sizes {
 	background: #775c8b;
 	box-shadow: 0 0 20px rgb(196, 194, 194);
 }
+#moho {
+	scale: 0.42;
+	background: #767053;
+}
+#gilly {
+	scale: 0.022;
+	background: #9a9266;
+}
+#ike {
+	scale: 0.22;
+	background: #bdb89e;
+}
 
 section#planet-info {
 	max-width: 600px;
@@ -156,6 +168,9 @@ article.card {
 	font-size: 1.5em;
 	font-weight: 500;
 	color: #000;
+}
+.bolder::first-letter {
+	text-transform: uppercase;
 }
 .item::first-letter {
 	text-transform: uppercase;
@@ -208,7 +223,7 @@ footer {
 	place-items: center;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 990px) {
 	section#planet-sizes {
 		display: flex;
 		justify-content: flex-start;

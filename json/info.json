@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Kerbin",
+		"name": "kerbin",
 		"parent_body": "Kerbol",
 		"equatorial_radius": 600,
 		"kerbin_size": 1,
@@ -100,7 +100,7 @@
 		"information": "High pressure , High temperature"
 	},
 	{
-		"name": "Moho",
+		"name": "moho",
 		"parent_body": "Kerbol",
 		"equatorial_radius": 250,
 		"kerbin_size": 0.42,
@@ -120,7 +120,7 @@
 		"information": "Extremely rocky with lots of caverns"
 	},
 	{
-		"name": "Gilly",
+		"name": "gilly",
 		"parent_body": "Eve",
 		"equatorial_radius": 13,
 		"kerbin_size": 0.022,
@@ -140,7 +140,7 @@
 		"information": "Moon of Eve, Very low gravity with very slow pull towards surface"
 	},
 	{
-		"name": "Ike",
+		"name": "ike",
 		"parent_body": "Duna",
 		"equatorial_radius": 130,
 		"kerbin_size": 0.22,
