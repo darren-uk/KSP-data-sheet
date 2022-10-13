@@ -123,16 +123,14 @@ function topFunction() {
 
 let dateContainer = document.querySelector("#date-display");
 let modifiedDate = new Date(document.lastModified);
-// dateContainer.innerText = `Page last modified on ${modifiedDate}`;
-
 let jsonUrl = "./json/info.json";
 
 fetch(jsonUrl).then((r) => {
 	lastMod = r.headers.get("date");
 
 	if (lastMod) {
-		dateContainer.innerText = `Json Page last modified on ${lastMod}`;
+		dateContainer.innerText = `Json data last updated on ${lastMod}`;
 	} else {
-		dateContainer.innerText = `HTML Page last modified on ${modifiedDate}`;
+		dateContainer.innerText = `Page last modified on ${modifiedDate}`;
 	}
 });
