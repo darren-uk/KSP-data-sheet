@@ -125,7 +125,7 @@ let dateContainer = document.querySelector("#date-display");
 let modifiedDate = new Date(document.lastModified);
 // dateContainer.innerText = `Page last modified on ${modifiedDate}`;
 
-let jsonUrl = "../json/info.json";
+let jsonUrl = "https://ksp-planet-data.netlify.app/json/info.json";
 
 fetch(jsonUrl).then((r) => {
 	lastMod = r.headers.get("Last-Modified");
