@@ -38,7 +38,8 @@ header h2 {
 	margin-top: 0.8em;
 }
 
-section#sub-navigation {
+section#sub-navigation,
+section#important-information {
 	max-width: 600px;
 	margin: 0 auto;
 	margin-bottom: 2em;
