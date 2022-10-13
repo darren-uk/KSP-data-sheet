@@ -222,6 +222,9 @@ footer {
 	display: grid;
 	place-items: center;
 }
+#date-display {
+	font-size: 0.7em;
+}
 
 @media only screen and (max-width: 990px) {
 	section#planet-sizes {

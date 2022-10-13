@@ -118,3 +118,9 @@ function topFunction() {
 		behavior: "smooth",
 	});
 }
+
+//Last Modified Date
+
+let dateContainer = document.querySelector("#date-display");
+let modifiedDate = new Date(document.lastModified);
+dateContainer.innerText = `Page last modified on ${modifiedDate}`;
