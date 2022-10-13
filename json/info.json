@@ -135,7 +135,7 @@
 		"low_space": 0,
 		"high_space": 50,
 		"sphere_of_influence": 1050,
-		"shadow_duration_at_ground_hrs": "10:11",
+		"shadow_duration_at_ground_hrs": "10:12",
 		"shadow_duration_at_100km_hrs": "00:18",
 		"synchronous_orbit": 1133.9,
 		"gravity": 0.112,
