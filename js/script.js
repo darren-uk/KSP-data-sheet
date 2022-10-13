@@ -128,7 +128,7 @@ let modifiedDate = new Date(document.lastModified);
 let jsonUrl = "./json/info.json";
 
 fetch(jsonUrl).then((r) => {
-	lastMod = r.headers.get("Last-Modified");
+	lastMod = r.headers.get("date");
 
 	if (lastMod) {
 		dateContainer.innerText = `Json Page last modified on ${lastMod}`;
