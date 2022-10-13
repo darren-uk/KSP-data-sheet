@@ -129,6 +129,10 @@ let jsonUrl = "./json/info.json";
 
 fetch(jsonUrl).then((r) => {
 	lastMod = r.headers.get("Last-Modified");
-	console.log(r.headers);
-	dateContainer.innerText = `Page last modified on ${lastMod}`;
+
+	if (lastMod) {
+		dateContainer.innerText = `Json Page last modified on ${lastMod}`;
+	} else {
+		dateContainer.innerText = `HTML Page last modified on ${modifiedDate}`;
+	}
 });
