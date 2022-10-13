@@ -119,8 +119,16 @@ function topFunction() {
 	});
 }
 
-//Last Modified Date
+//Last Modified Date of index.html
 
 let dateContainer = document.querySelector("#date-display");
 let modifiedDate = new Date(document.lastModified);
-dateContainer.innerText = `Page last modified on ${modifiedDate}`;
+// dateContainer.innerText = `Page last modified on ${modifiedDate}`;
+
+let jsonUrl = "../json/info.json";
+
+fetch(jsonUrl).then((r) => {
+	lastMod = r.headers.get("Last-Modified");
+	console.log(r.headers);
+	dateContainer.innerText = `Page last modified on ${lastMod}`;
+});
