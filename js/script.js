@@ -2,16 +2,9 @@ async function fetchData() {
 	// Get json file
 	let response = await fetch("./json/info.json");
 	let data = await response.json();
-	// console.log(data);
 
 	//create template
 	function planetTemplate(planet) {
-		console.log(
-			"grnd" +
-				Math.round((planet.shadow_duration_at_ground_hrs * 100) / 100).toFixed(
-					2
-				)
-		);
 		return `
         <article class="card" id="${planet.name}-link">
             <div>
@@ -80,7 +73,7 @@ async function fetchData() {
 	}
 
 	document.getElementById("planet-info").innerHTML = `
-    ${data.map(planetTemplate).join("")}
+    ${data.bodies.map(planetTemplate).join("")}
     `;
 
 	//Quick links
@@ -91,9 +84,23 @@ async function fetchData() {
 	}
 
 	document.getElementById("quick-links").innerHTML = `
-    ${data.map(quickLinks).join("")}
+    ${data.bodies.map(quickLinks).join("")}
     `;
+
+	//Last Modified Date of index.html
+
+	let dateContainer = document.querySelector("#date-display");
+	let htmlModifiedDate = new Date(document.lastModified);
+	let jsonModifiedDate = data.updated;
+
+	if (jsonModifiedDate) {
+		dateContainer.innerText = `Json data last updated on ${jsonModifiedDate}`;
+	} else {
+		dateContainer.innerText = `Page last modified on ${htmlModifiedDate}`;
+	}
 }
+
+// ASYNC ENDS --------------------------
 
 //Back to top button
 
@@ -118,19 +125,3 @@ function topFunction() {
 		behavior: "smooth",
 	});
 }
-
-//Last Modified Date of index.html
-
-let dateContainer = document.querySelector("#date-display");
-let modifiedDate = new Date(document.lastModified);
-let jsonUrl = "./json/info.json";
-
-fetch(jsonUrl).then((r) => {
-	lastMod = r.headers.get("date");
-
-	if (lastMod) {
-		dateContainer.innerText = `Json data last updated on ${lastMod}`;
-	} else {
-		dateContainer.innerText = `Page last modified on ${modifiedDate}`;
-	}
-});
