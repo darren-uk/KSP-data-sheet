@@ -8,6 +8,7 @@
 			"kerbin_size": 1,
 			"atmosphere": "yes",
 			"atmosphere_limit": 70,
+			"tallest_peak": 7,
 			"low_space": 70,
 			"high_space": 250,
 			"sphere_of_influence": 84159,
@@ -17,15 +18,16 @@
 			"gravity": 1,
 			"escape_velocity": 3431.03,
 			"surface_rca": "no",
-			"information": "Home planet"
+			"information": "Home planet, Requires approximatley 3400 m/s to reach orbit"
 		},
 		{
-			"name": "mun",
+			"name": "Mun",
 			"parent_body": "Kerbin",
 			"equatorial_radius": 200,
 			"kerbin_size": 0.34,
 			"atmosphere": "no",
 			"atmosphere_limit": 0,
+			"tallest_peak": 5.1,
 			"low_space": 0,
 			"high_space": 60,
 			"sphere_of_influence": 2430,
@@ -35,15 +37,16 @@
 			"gravity": 0.166,
 			"escape_velocity": 807.08,
 			"surface_rca": "yes",
-			"information": "Lots of craters, equatorial orbit"
+			"information": "Lots of craters, equatorial orbit of Kerbin"
 		},
 		{
-			"name": "minmus",
+			"name": "Minmus",
 			"parent_body": "Kerbin",
 			"equatorial_radius": 60,
 			"kerbin_size": 0.1,
 			"atmosphere": "no",
 			"atmosphere_limit": 0,
+			"tallest_peak": 5.7,
 			"low_space": 0,
 			"high_space": 30,
 			"sphere_of_influence": 2247,
@@ -53,15 +56,16 @@
 			"gravity": 0.05,
 			"escape_velocity": 242.61,
 			"surface_rca": "yes",
-			"information": "Lots of craters. Inclined orbit "
+			"information": "Lots of craters. Inclined orbit of 6 degrees"
 		},
 		{
-			"name": "duna",
+			"name": "Duna",
 			"parent_body": "Kerbol",
 			"equatorial_radius": 320,
 			"kerbin_size": 0.54,
 			"atmosphere": "yes",
 			"atmosphere_limit": 50,
+			"tallest_peak": 8.3,
 			"low_space": 50,
 			"high_space": 140,
 			"sphere_of_influence": 47922,
@@ -74,12 +78,13 @@
 			"information": "Thin atmosphere. Needs lots of shutes or thrusters to decend. No heat shield needed. Small items will break with aero forces. EVA / RCA not sutable."
 		},
 		{
-			"name": "eve",
+			"name": "Eve",
 			"parent_body": "Kerbol",
 			"equatorial_radius": 700,
 			"kerbin_size": 1.17,
 			"atmosphere": "yes",
 			"atmosphere_limit": 90,
+			"tallest_peak": 7.6,
 			"low_space": 90,
 			"high_space": 400,
 			"sphere_of_influence": 85109,
@@ -98,6 +103,7 @@
 			"kerbin_size": 0.42,
 			"atmosphere": "no",
 			"atmosphere_limit": 0,
+			"tallest_peak": 7,
 			"low_space": 0,
 			"high_space": 80,
 			"sphere_of_influence": 96467,
@@ -116,6 +122,7 @@
 			"kerbin_size": 0.022,
 			"atmosphere": "no",
 			"atmosphere_limit": 0,
+			"tallest_peak": "unknown",
 			"low_space": 0,
 			"high_space": 6,
 			"sphere_of_influence": 126,
@@ -124,7 +131,7 @@
 			"synchronous_orbit": 42.14,
 			"gravity": 0.005,
 			"escape_velocity": 35.71,
-			"surface_rca": "unknown",
+			"surface_rca": "yes",
 			"information": "Moon of Eve, Very low gravity with very slow pull towards surface"
 		},
 		{
@@ -134,6 +141,7 @@
 			"kerbin_size": 0.22,
 			"atmosphere": "no",
 			"atmosphere_limit": 0,
+			"tallest_peak": 13,
 			"low_space": 0,
 			"high_space": 50,
 			"sphere_of_influence": 1050,
@@ -143,7 +151,7 @@
 			"gravity": 0.112,
 			"escape_velocity": 534.48,
 			"surface_rca": "yes",
-			"information": "Moon of Duna"
+			"information": "Moon of Duna. Very rocky."
 		}
 	]
 }

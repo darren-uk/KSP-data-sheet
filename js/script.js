@@ -28,6 +28,10 @@ async function fetchData() {
                 <p class="value">${planet.atmosphere_limit} <span class="measurment">KM</span></p>
             </div>
             <div>
+                <p class="item">Tallest Peak</p>
+                <p class="value">${planet.tallest_peak} <span class="measurment">KM</span></p>
+            </div>
+            <div>
                 <p class="item">Low Space</p>
                 <p class="value">${planet.low_space} <span class="measurment">KM</span></p>
             </div>
