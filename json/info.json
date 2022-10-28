@@ -56,7 +56,7 @@
 			"gravity": 0.05,
 			"escape_velocity": 242.61,
 			"surface_rca": "yes",
-			"information": "Lots of craters. Inclined orbit of 6 degrees"
+			"information": "Lots of craters. Launch when Space center is under the decending node of minmus towards a 6 degree inclination"
 		},
 		{
 			"name": "Duna",
@@ -75,7 +75,7 @@
 			"gravity": 0.3,
 			"escape_velocity": 1372.41,
 			"surface_rca": "no",
-			"information": "Thin atmosphere. Needs lots of shutes or thrusters to decend. No heat shield needed. Small items will break with aero forces. EVA / RCA not sutable."
+			"information": "Red planet with a thin atmosphere. Difficult mountainous terrain with several craters and icy poles. Shallow aerobraking advised. No heat shield needed. Parachutes will deploy closer to ground as air pressure is very thin at the upper atmosphere. Landing should be assisted with engines "
 		},
 		{
 			"name": "Eve",
@@ -94,7 +94,7 @@
 			"gravity": 1.7,
 			"escape_velocity": 4831.96,
 			"surface_rca": "no",
-			"information": "High pressure , High temperature"
+			"information": "Purple planet with thick atmosphere, high gravity and high temperature. Easy to land with parachutes and aerobraking but very difficult to take off because of aero forces."
 		},
 		{
 			"name": "Moho",
