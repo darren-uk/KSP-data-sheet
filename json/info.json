@@ -1,5 +1,5 @@
 {
-	"updated": "Fri 28 October 2022",
+	"updated": "Thurs 23 November 2022",
 	"bodies": [
 		{
 			"name": "Kerbin",
@@ -17,7 +17,7 @@
 			"synchronous_orbit": 2863.33,
 			"gravity": 1,
 			"escape_velocity": 3431.03,
-			"surface_rca": "no",
+			"surface_rcs": "no",
 			"information": "Home planet, Requires approximatley 3400 m/s to reach orbit"
 		},
 		{
@@ -36,7 +36,7 @@
 			"synchronous_orbit": 2970.56,
 			"gravity": 0.166,
 			"escape_velocity": 807.08,
-			"surface_rca": "yes",
+			"surface_rcs": "yes",
 			"information": "Lots of craters, equatorial orbit of Kerbin"
 		},
 		{
@@ -55,7 +55,7 @@
 			"synchronous_orbit": 357.94,
 			"gravity": 0.05,
 			"escape_velocity": 242.61,
-			"surface_rca": "yes",
+			"surface_rcs": "yes",
 			"information": "Lots of craters. Launch when Space center is under the decending node of minmus towards a 6 degree inclination"
 		},
 		{
@@ -74,7 +74,7 @@
 			"synchronous_orbit": 2880.0,
 			"gravity": 0.3,
 			"escape_velocity": 1372.41,
-			"surface_rca": "no",
+			"surface_rcs": "no",
 			"information": "Red planet with a thin atmosphere. Difficult mountainous terrain with several craters and icy poles. Shallow aerobraking advised. No heat shield needed. Parachutes will deploy closer to ground as air pressure is very thin at the upper atmosphere. Landing should be assisted with engines "
 		},
 		{
@@ -93,7 +93,7 @@
 			"synchronous_orbit": 10328.47,
 			"gravity": 1.7,
 			"escape_velocity": 4831.96,
-			"surface_rca": "no",
+			"surface_rcs": "no",
 			"information": "Purple planet with thick atmosphere, high gravity and high temperature. Easy to land with parachutes and aerobraking but very difficult to take off because of aero forces."
 		},
 		{
@@ -112,7 +112,7 @@
 			"synchronous_orbit": 18173.17,
 			"gravity": 0.275,
 			"escape_velocity": 1161.41,
-			"surface_rca": "yes",
+			"surface_rcs": "yes",
 			"information": "Extremely rocky with lots of caverns"
 		},
 		{
@@ -131,7 +131,7 @@
 			"synchronous_orbit": 42.14,
 			"gravity": 0.005,
 			"escape_velocity": 35.71,
-			"surface_rca": "yes",
+			"surface_rcs": "yes",
 			"information": "Moon of Eve, Very low gravity with very slow pull towards surface"
 		},
 		{
@@ -150,7 +150,7 @@
 			"synchronous_orbit": 1133.9,
 			"gravity": 0.112,
 			"escape_velocity": 534.48,
-			"surface_rca": "yes",
+			"surface_rcs": "yes",
 			"information": "Moon of Duna. Very rocky."
 		}
 	]

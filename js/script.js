@@ -64,8 +64,8 @@ async function fetchData() {
                 <p class="value">${planet.escape_velocity} <span class="measurment">m/s</span></p>
             </div>
             <div>
-                <p class="item">surface rca</p>
-                <p class="value">${planet.surface_rca}</p>
+                <p class="item">surface EVA RCS</p>
+                <p class="value">${planet.surface_rcs}</p>
             </div>
             <div>
                 <p class="item">information :</p>
