@@ -4,7 +4,6 @@
 		url("../fonts/corbel.woff") format("woff");
 	font-weight: normal;
 	font-style: normal;
-	font-display: swap;
 }
 html {
 	scroll-behavior: smooth;
