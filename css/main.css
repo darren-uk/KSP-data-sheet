@@ -189,11 +189,32 @@ article.card {
 .card div:first-child {
 	border-bottom: 2px solid grey;
 }
-.card div:last-child {
+.info-box {
 	display: flex;
 	flex-direction: column;
-	border-top: 2px solid grey;
-	margin-top: 1em;
+}
+.info-box .value {
+	max-width: 100%;
+}
+hr {
+	height: 2px;
+	background-color: grey;
+	width: 100%;
+}
+.route div:first-child {
+	background-color: rgba(137, 193, 137, 0.762);
+	border-bottom: none;
+}
+.route div:nth-last-child(2) {
+	border-top: 1px dashed grey;
+}
+.route h3 {
+	color: white;
+	padding-left: 1em;
+}
+.small-red {
+	font-size: 0.8em;
+	color: rgb(174, 41, 41);
 }
 
 .card div:last-child p.value {

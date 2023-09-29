@@ -37,7 +37,10 @@
 			"gravity": 0.166,
 			"escape_velocity": 807.08,
 			"surface_rcs": "yes",
-			"information": "Lots of craters, equatorial orbit of Kerbin"
+			"information": "Lots of craters, equatorial orbit of Kerbin",
+			"intercept": 860,
+			"low_orbit": 280,
+			"landing": 580
 		},
 		{
 			"name": "Minmus",
@@ -56,7 +59,10 @@
 			"gravity": 0.05,
 			"escape_velocity": 242.61,
 			"surface_rcs": "yes",
-			"information": "Lots of craters. Launch when Space center is under the decending node of minmus towards a 6 degree inclination"
+			"information": "Lots of craters. Launch when Space center is under the decending node of minmus towards a 6 degree inclination",
+			"intercept": 930,
+			"low_orbit": 150,
+			"landing": 180
 		},
 		{
 			"name": "Duna",
@@ -75,7 +81,11 @@
 			"gravity": 0.3,
 			"escape_velocity": 1372.41,
 			"surface_rcs": "no",
-			"information": "Red planet with a thin atmosphere. Difficult mountainous terrain with several craters and icy poles. Shallow aerobraking advised. No heat shield needed. Parachutes will deploy closer to ground as air pressure is very thin at the upper atmosphere. Landing should be assisted with engines "
+			"information": "Red planet with a thin atmosphere. Difficult mountainous terrain with several craters and icy poles. Shallow aerobraking advised. No heat shield needed. Parachutes will deploy closer to ground as air pressure is very thin at the upper atmosphere. Landing should be assisted with engines ",
+			"soi_edge": 930,
+			"intercept": 130,
+			"low_orbit": 610,
+			"landing": 1450
 		},
 		{
 			"name": "Eve",
@@ -94,7 +104,11 @@
 			"gravity": 1.7,
 			"escape_velocity": 4831.96,
 			"surface_rcs": "no",
-			"information": "Purple planet with thick atmosphere, high gravity and high temperature. Easy to land with parachutes and aerobraking but very difficult to take off because of aero forces."
+			"information": "Purple planet with thick atmosphere, high gravity and high temperature. Easy to land with parachutes and aerobraking but very difficult to take off because of aero forces.",
+			"soi_edge": 930,
+			"intercept": 90,
+			"low_orbit": 1380,
+			"landing": 8000
 		},
 		{
 			"name": "Moho",
@@ -113,7 +127,11 @@
 			"gravity": 0.275,
 			"escape_velocity": 1161.41,
 			"surface_rcs": "yes",
-			"information": "Extremely rocky with lots of caverns"
+			"information": "Extremely rocky with lots of caverns",
+			"soi_edge": 930,
+			"intercept": 760,
+			"low_orbit": 2400,
+			"landing": 870
 		},
 		{
 			"name": "Gilly",
@@ -132,7 +150,11 @@
 			"gravity": 0.005,
 			"escape_velocity": 35.71,
 			"surface_rcs": "yes",
-			"information": "Moon of Eve, Very low gravity with very slow pull towards surface"
+			"information": "Moon of Eve, Very low gravity with very slow pull towards surface",
+			"soi_edge": 930,
+			"intercept": 230,
+			"low_orbit": 410,
+			"landing": 30
 		},
 		{
 			"name": "Ike",
@@ -151,7 +173,11 @@
 			"gravity": 0.112,
 			"escape_velocity": 534.48,
 			"surface_rcs": "yes",
-			"information": "Moon of Duna. Very rocky."
+			"information": "Moon of Duna. Very rocky.",
+			"soi_edge": 930,
+			"intercept": 410,
+			"low_orbit": 150,
+			"landing": 390
 		}
 	]
 }
