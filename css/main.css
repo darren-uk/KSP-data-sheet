@@ -130,6 +130,15 @@ section#planet-sizes {
 	scale: 0.22;
 	background: #bdb89e;
 }
+#dres {
+	scale: 0.23;
+	background: radial-gradient(
+		circle at 20% 20%,
+		rgb(37, 36, 36),
+		rgb(37, 36, 36) 20%,
+		grey
+	);
+}
 
 section#planet-info {
 	max-width: 600px;
@@ -239,6 +248,38 @@ hr {
 
 #myBtn:hover {
 	background-color: #555; /* Add a dark-grey background on hover */
+}
+
+#mapBtn {
+	display: block;
+	position: fixed;
+	bottom: 20px;
+	left: 30px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: rgb(35, 159, 79);
+	color: white;
+	cursor: pointer;
+	padding: 0.8em;
+	border-radius: 0.3em;
+	font-size: 1em;
+}
+#mapBtn:hover {
+	background-color: rgb(30, 135, 67);
+}
+.map-display {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100dvh;
+	background: black;
+	z-index: 80;
+	place-content: center;
+}
+.map-display img {
+	max-height: 100vh;
 }
 
 footer {
