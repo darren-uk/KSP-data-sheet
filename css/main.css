@@ -280,6 +280,7 @@ hr {
 }
 .map-display img {
 	max-height: 100vh;
+	max-width: 100vw;
 }
 
 footer {
