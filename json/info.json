@@ -178,6 +178,29 @@
 			"intercept": 410,
 			"low_orbit": 150,
 			"landing": 390
+		},
+		{
+			"name": "Dres",
+			"parent_body": "Kerbol",
+			"equatorial_radius": 138,
+			"kerbin_size": "0.23",
+			"atmosphere": "no",
+			"atmosphere_limit": 0,
+			"tallest_peak": 5.7,
+			"low_space": 0,
+			"high_space": 25,
+			"sphere_of_influence": 32.8,
+			"shadow_duration_at_ground_hrs": "n/a",
+			"shadow_duration_at_100km_hrs": "n/a",
+			"synchronous_orbit": 732.24,
+			"gravity": 1.13,
+			"escape_velocity": 558,
+			"surface_rcs": "yes",
+			"information": "Dwarf planet. Rocky with no atmosphere.",
+			"soi_edge": 930,
+			"intercept": 1620,
+			"low_orbit": 1300,
+			"landing": 430
 		}
 	]
 }

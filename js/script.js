@@ -177,3 +177,13 @@ function topFunction() {
 		behavior: "smooth",
 	});
 }
+
+//Toggle Map button
+
+let mapButton = document.getElementById("mapBtn");
+let mapDisplay = document.getElementById("map-display");
+
+function toggleMap() {
+	mapDisplay.style.display =
+		mapDisplay.style.display === "none" ? "grid" : "none";
+}
