@@ -201,6 +201,29 @@
 			"intercept": 1620,
 			"low_orbit": 1300,
 			"landing": 430
+		},
+		{
+			"name": "Jool",
+			"parent_body": "Kerbol",
+			"equatorial_radius": 6000,
+			"kerbin_size": "10",
+			"atmosphere": "yes",
+			"atmosphere_limit": 200,
+			"tallest_peak": "n/a",
+			"low_space": 138,
+			"high_space": 150,
+			"sphere_of_influence": 2.45,
+			"shadow_duration_at_ground_hrs": "n/a",
+			"shadow_duration_at_100km_hrs": "n/a",
+			"synchronous_orbit": 15010.46,
+			"gravity": 7.85,
+			"escape_velocity": 9704.43,
+			"surface_rcs": "no",
+			"information": "Huge Green GAS GIANT. No land. Very dense cold atmosphere. Can use parachutes to slow descent. atmos = 100km, upper atmos = 138km. Weak signal, solar power weak.",
+			"soi_edge": 930,
+			"intercept": 1250,
+			"low_orbit": 2940,
+			"landing": 14000
 		}
 	]
 }

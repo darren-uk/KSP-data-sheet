@@ -139,6 +139,10 @@ section#planet-sizes {
 		grey
 	);
 }
+#jool {
+	scale: 1.5;
+	background: greenyellow;
+}
 
 section#planet-info {
 	max-width: 600px;
