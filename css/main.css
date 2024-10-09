@@ -19,7 +19,7 @@ body {
 	color: #4d4848;
 }
 
-main > :not(#planet-sizes) {
+main > :not(#planet-sizes, #map-display) {
 	padding: 0 2em;
 }
 
@@ -141,7 +141,9 @@ section#planet-sizes {
 }
 #jool {
 	scale: 1.5;
-	background: greenyellow;
+	background: #adff2f;
+	background: linear-gradient(145deg, #adff2f, #6db304, #6db304, #adff2f);
+	box-shadow: 0 0 20px rgb(196, 194, 194);
 }
 
 section#planet-info {
