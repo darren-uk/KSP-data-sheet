@@ -19,7 +19,7 @@ body {
 	color: #4d4848;
 }
 
-main {
+main > :not(#planet-sizes) {
 	padding: 0 2em;
 }
 
